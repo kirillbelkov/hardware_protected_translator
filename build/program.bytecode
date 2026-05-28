@@ -1,0 +1,77 @@
+{
+  "magic": "HPBC",
+  "version": 1,
+  "source": "program.src",
+  "instructions": [
+    {
+      "op": "PRINT",
+      "args": [
+        "Start of protected program"
+      ]
+    },
+    {
+      "op": "SET",
+      "args": [
+        "x",
+        10
+      ]
+    },
+    {
+      "op": "SET",
+      "args": [
+        "y",
+        25
+      ]
+    },
+    {
+      "op": "ADD",
+      "args": [
+        {
+          "var": "x"
+        },
+        {
+          "var": "y"
+        }
+      ]
+    },
+    {
+      "op": "SUB",
+      "args": [
+        {
+          "var": "y"
+        },
+        {
+          "var": "x"
+        }
+      ]
+    },
+    {
+      "op": "MUL",
+      "args": [
+        7,
+        6
+      ]
+    },
+    {
+      "op": "DIV",
+      "args": [
+        {
+          "var": "y"
+        },
+        5
+      ]
+    },
+    {
+      "op": "PRINT_VAR",
+      "args": [
+        "x"
+      ]
+    },
+    {
+      "op": "PRINT",
+      "args": [
+        "Finished"
+      ]
+    }
+  ]
+}
