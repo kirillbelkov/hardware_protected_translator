@@ -2,7 +2,7 @@
 
 Запуск:
 
-bash
+
 python src/license_tool.py usb_key --license-id USB-KEY-001 --owner "Пользователь"
 python src/compiler.py examples/program.src build/program.bytecode
 python src/protector.py build/program.bytecode build/protected_program.hpkg --license-id USB-KEY-001
